@@ -26,25 +26,25 @@ function Footer () {
                     <a className="btn btn-primary" style={ {backgroundColor: '#3b5998'} } href="#" role="button">
                         <i className="fab fa-facebook-f social-icon"/>
                     </a>
-        
+                    
                     <a className="btn btn-primary" style={ {backgroundColor: '#55acee'} } href="#" role="button">
                         <i className="fab fa-twitter social-icon"/>
                     </a>
-        
+                    
                     <a className="btn btn-primary" style={ {backgroundColor: '#dd4b39'} } href="#" role="button">
                         <i className="fab fa-google social-icon"/>
                     </a>
-        
+                    
                     <a className="btn btn-primary" style={ {backgroundColor: '#ac2bac'} } href="#" role="button">
                         <i className="fab fa-instagram social-icon"/>
                     </a>
-        
+                    
                     <a className="btn btn-primary" style={ {backgroundColor: '#0082ca'} } href="#" role="button">
                         <i className="fab fa-linkedin-in social-icon"/>
                     </a>
                 </div>
             </div>
-            
+        
         </footer>
     );
 }

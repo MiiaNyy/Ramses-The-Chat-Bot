@@ -48,6 +48,23 @@ footer, section {
     padding: 1em;
 }
 
+section {
+    margin: 2em 0;
+
+}
+
+.section__accent {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1em 2em;
+    text-align: center;
+    color: white;
+    background-color: #27292c;
+    border-radius: 10px;
+
+}
+
+
 .container {
     border: 2px solid pink;
 }
