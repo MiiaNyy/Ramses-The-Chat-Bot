@@ -39,6 +39,10 @@ a {
     letter-spacing: 1px;
 }
 
+strong {
+    letter-spacing: 1px;
+}
+
 footer, section {
     padding: 1em 2em;
 }
@@ -175,8 +179,23 @@ nav {
 
 /* --- FOOTER --- */
 
-.footer__item {
-    color: #e3e3e3;;
+footer {
+    color: #9f9f9f;
+}
+
+.footer__title {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.footer__item-title{
+    text-decoration: underline;
+}
+
+.footer__item-address p {
+    margin-bottom: 0.3em;
 }
 
 .footer__social-buttons {
@@ -189,6 +208,8 @@ nav {
 .social-icon {
     color: #e3e3e3;;
 }
+
+/* --- SECTIONS --- */
 .section__containers {
     color: #e3e3e3;;
     background-color: #27292c;

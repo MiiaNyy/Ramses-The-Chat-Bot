@@ -3,14 +3,7 @@ import React from 'react';
 function Footer () {
     return (
         <footer className="bg-dark">
-            
-            <div className="footer__item">
-                <strong>Rafael's Stuffed Animal</strong>
-                <p>9 King Street</p>
-                <p>London</p>
-                <p>SE86 1NZ</p>
-                <p>England</p>
-            </div>
+            <p className="footer__title">Rafael's Stuffed Animal</p>
             
             <div className="footer__item">
                 <strong>For Employee</strong>
@@ -21,7 +14,17 @@ function Footer () {
             </div>
             
             <div className="footer__item">
-                <strong>You can find us in</strong>
+                
+                <div className="footer__item-address">
+                    <p className="footer__item-title"><strong>Where to find us</strong> </p>
+                    <p>9 King Street</p>
+                    <p>London</p>
+                    <p>SE86 1NZ</p>
+                    <p>England</p>
+                    <p><strong>email:</strong> lorem@rsa.com </p>
+                    <p><strong>phone:</strong> (123) 123 123</p>
+                </div>
+                
                 <div className="footer__social-buttons">
                     <a className="btn btn-primary" style={ {backgroundColor: '#3b5998'} } href="#" role="button">
                         <i className="fab fa-facebook-f social-icon"/>
