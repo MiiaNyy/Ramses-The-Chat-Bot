@@ -1,4 +1,5 @@
 import React from 'react';
+import navLogo from "../assets/rsa-logo.png";
 
 function openNavigation() {
     document.querySelectorAll('.nav__list').forEach(item => {
@@ -21,32 +22,39 @@ function Navigation () {
         <nav className="navbar navbar-dark bg-dark">
             <div className="navbar">
                 <div className={`d-flex justify-content-between align-items-center`}>
-                    <a className="navbar-brand">Rafael's Stuffed Animals</a>
+                    <div style={{gap: "1em"}} className={`d-flex justify-content-between align-items-center`}>
+                        <img width={30} height={30} src={navLogo} alt="logo"/>
+                        <a className="navbar-brand">Rafael's Stuffed Animals</a>
+                    </div>
+                    
                     <a><i onClick={ () => openNavigation()} className="fas fa-bars nav-icon__bars"/></a>
                     <a className={`nav-icon__cross`}><i onClick={() => closeNavigation()} className="fas fa-times "/></a>
                 </div>
                 
                 
                 <ul className="navbar nav text-center nav__list">
-                    <li className="nav-item active">
-                        <a className="nav-link" href="/">Home</a>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#products">Products</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="/category">Categories</a>
+                        <a className="nav-link" href="#gallery">Gallery</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="/item/create">Create new</a>
+                        <a className="nav-link" href="https://rafaels-inventory.herokuapp.com/">Inventory</a>
                     </li>
                 </ul>
             </div>
-            <ul className="navbar nav text-center pb-4 nav__list">
-                <li className="nav-item">
-                    <a className="nav-link" href="/sign-up">Sign up</a>
-                </li>
-                <li className="nav-item active">
-                    <a className="nav-btn" href="/login">Log in</a>
-                </li>
-            </ul>
+            <div className="navbar">
+                <ul className="navbar nav__list navbar-auth">
+                    <li className="nav-item">
+                        <a className="nav-link" href="#">Sign up</a>
+                    </li>
+                    <li className="nav-item active">
+                        <a className="nav-btn" href="#">Log in</a>
+                    </li>
+                </ul>
+            </div>
+            
         </nav>
     );
 }
@@ -54,28 +62,3 @@ function Navigation () {
 export default Navigation;
 
 
-/*<nav className="navbar navbar-dark bg-dark">
- <div className="mx-auto navbar-flex-item ">
- <a className="navbar-brand">Rafael's Stuffed Animals</a>
- 
- <ul className="navbar nav nav__box">
- <li className="nav-item active">
- <a className="nav-link" href="/">Home</a>
- </li>
- <li className="nav-item">
- <a className="nav-link" href="/category">Categories</a>
- </li>
- <li className="nav-item">
- <a className="nav-link" href="/item/create">Create new</a>
- </li>
- </ul>
- </div>
- <ul className="navbar nav mx-auto text-center nav__box">
- <li className="nav-item">
- <a className="nav-link" href="/sign-up">Sign up</a>
- </li>
- <li className="nav-item active">
- <a className="nav-btn" href="/login">Log in</a>
- </li>
- </ul>
- </nav>*/
