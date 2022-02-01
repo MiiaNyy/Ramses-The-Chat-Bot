@@ -1,9 +1,13 @@
 
 // Common loaders and rules
+const Dotenv = require('dotenv-webpack');
 
 module.exports = {
     entry: "./src/index.js",
     devtool: "source-map",
+    plugins: [
+        new Dotenv(),
+    ],
     module: {
         rules: [
             {
