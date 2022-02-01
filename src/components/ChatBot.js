@@ -8,7 +8,11 @@ function ChatBot () {
                     src={ `https://webchat.botframework.com/embed/RamsesPublish?s=glwKzQ2XH6g.XYIYmpuuUD8u8mChHEfKmbWi9kTT3k-ZmdmejviD2RU` }/>
         );
     } else {
-        return <div onClick={() => setBotOpen(true)} className="bot bot__closed"/>
+        return (
+            <div onClick={() => setBotOpen(true)} className="bot bot__closed">
+                <i className="fas fa-comment-alt"/>
+            </div>
+        )
     }
     
     
