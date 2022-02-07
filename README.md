@@ -1,5 +1,5 @@
-# RSA - homepage
-This project is part 2 of my RSA inventory and Azure chat bot project. This pages idea is to be RSA - company's 
+# <img src="assets/apple-touch-icon.png" width="40" height="40"/> RSA - homepage and chat bot
+This project is part two of my RSA inventory and Azure chat bot project. This pages idea is to be RSA - company's 
 homepage 
 where you can talk to the chat bot called Ramses the Inventory Assistant.
 You can ask about bot about the company and get information 
@@ -21,7 +21,7 @@ specific items, create new ones or delete them. This is done by using rest API c
 
 Bot can also tell information about the company and do little chitchat. 
 
-### How to test the bot
+## How to test the bot
 **To get access to inventory ask:**
 - _Inventory management_
 - _Add new item to inventory_
