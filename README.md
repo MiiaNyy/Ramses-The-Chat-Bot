@@ -6,7 +6,7 @@ get information about the company's inventory.
 
 The page itself is created using React, Webpack and CSS. It is created mobile first.
 
-## [Live version](https://miianyy.github.io/rsa-homepage/)
+## [Live version](https://miianyy.github.io/Ramses-The-Chat-Bot/)
 
 ## Bot
 
@@ -23,7 +23,7 @@ Understanding (LUIS) service. They are created by teaching LUIS different words 
 conditional statement. When LUIS recognizes a word / phrase, it gives it a confidence score from 0-100%. The 
 more confident it is about user intent, the higher the score. The conditional statement is there to tell LUIS that, 
 if your confidence score is higher than this (example 60%) fire this particular dialog.
-
+<img src="src/assets/trigger-phrases-for-readme.png" height="150"/>
 
 ### What it can do
 
