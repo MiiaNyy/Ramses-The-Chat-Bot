@@ -6,7 +6,7 @@ get information about the company's inventory.
 
 The page itself is created using React, Webpack and CSS. It is created mobile first.
 
-## [Live version](https://miianyy.github.io/Ramses-The-Chat-Bot/)
+### [Live version](https://miianyy.github.io/Ramses-The-Chat-Bot/)
 
 ## Bot
 
@@ -16,6 +16,8 @@ C#. Because I was not familiar with C#, I decided to use Bot Composer. In hindsi
 and quicker to learn C# than create the bot using Composer.
 
 Bot is connected to QnA Maker Knowledge Base and Azures Language Understanding (LUIS).
+
+### How it works?
 
 The bot is built around different dialogues and triggers. Dialogues are coded conversations between a bot and users. In
 the dialog, the bot can ask the user something or just provide information. Triggers are created using Azure's Language
@@ -35,7 +37,7 @@ the database.
 
 Bot can also tell information about the company and do little chitchat.
 
-## How to test the bot
+## How to test it
 
 **To get access to inventory ask:**
 
