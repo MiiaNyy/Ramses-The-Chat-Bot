@@ -32,23 +32,23 @@ function Footer () {
                 </div>
                 
                 <div className="footer__social-buttons">
-                    <a className="btn btn-primary" style={ {backgroundColor: '#3b5998'} } href="https://www.facebook.com/miia.nyyssonen.3" role="button">
+                    <a className="btn btn-primary social-btn" style={ {backgroundColor: '#3b5998'} } href="https://www.facebook.com/miia.nyyssonen.3" role="button">
                         <i className="fab fa-facebook-f social-icon"/>
                     </a>
                     
-                    <a className="btn btn-primary" style={ {backgroundColor: '#55acee'} } href="https://twitter.com/BuffyTVS" role="button">
+                    <a className="btn btn-primary social-btn" style={ {backgroundColor: '#55acee'} } href="https://twitter.com/BuffyTVS" role="button">
                         <i className="fab fa-twitter social-icon"/>
                     </a>
                     
-                    <a className="btn btn-primary" style={ {backgroundColor: '#dd4b39'} } href="https://www.google.com/search?q=buffy+the+vampire+slayer&sxsrf=AOaemvIMy7LUXzQDZgyeEHH5YKvUy3s5mA%3A1640166663524&ei=B_XCYderH7CIxc8PzIquqAI&ved=0ahUKEwiXy-f6kPf0AhUwRPEDHUyFCyUQ4dUDCA4&uact=5&oq=buffy+the+vampire+slayer&gs_lcp=Cgdnd3Mtd2l6EAMyBAgjECcyBQguEMsBMgUILhDLATIFCAAQywEyBQgAEMsBMgUIABDLATIFCAAQywEyBQgAEMsBMgUIABDLATIFCAAQywE6BAgAEEdKBAhBGABKBAhGGABQ0gFYigdg9gloAHADeACAAdADiAGYC5IBCTAuMS4yLjEuMZgBAKABAcgBCMABAQ&sclient=gws-wiz" role="button">
+                    <a className="btn btn-primary social-btn" style={ {backgroundColor: '#dd4b39'} } href="https://www.google.com/search?q=buffy+the+vampire+slayer&sxsrf=AOaemvIMy7LUXzQDZgyeEHH5YKvUy3s5mA%3A1640166663524&ei=B_XCYderH7CIxc8PzIquqAI&ved=0ahUKEwiXy-f6kPf0AhUwRPEDHUyFCyUQ4dUDCA4&uact=5&oq=buffy+the+vampire+slayer&gs_lcp=Cgdnd3Mtd2l6EAMyBAgjECcyBQguEMsBMgUILhDLATIFCAAQywEyBQgAEMsBMgUIABDLATIFCAAQywEyBQgAEMsBMgUIABDLATIFCAAQywE6BAgAEEdKBAhBGABKBAhGGABQ0gFYigdg9gloAHADeACAAdADiAGYC5IBCTAuMS4yLjEuMZgBAKABAcgBCMABAQ&sclient=gws-wiz" role="button">
                         <i className="fab fa-google social-icon"/>
                     </a>
                     
-                    <a className="btn btn-primary" style={ {backgroundColor: '#ac2bac'} } href="https://www.instagram.com/miiemilia/" role="button">
+                    <a className="btn btn-primary social-btn" style={ {backgroundColor: '#ac2bac'} } href="https://www.instagram.com/miiemilia/" role="button">
                         <i className="fab fa-instagram social-icon"/>
                     </a>
                     
-                    <a className="btn btn-primary" style={ {backgroundColor: '#0082ca'} } href="https://www.linkedin.com/in/miia-nyyss%C3%B6nen-66a0881b8/" role="button">
+                    <a className="btn btn-primary social-btn" style={ {backgroundColor: '#0082ca'} } href="https://www.linkedin.com/in/miia-nyyss%C3%B6nen-66a0881b8/" role="button">
                         <i className="fab fa-linkedin-in social-icon"/>
                     </a>
                 </div>

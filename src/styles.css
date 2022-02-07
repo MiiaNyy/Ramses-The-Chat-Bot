@@ -407,7 +407,12 @@ strong {
 }
 
 .social-icon {
-    color: #e3e3e3;;
+    color: #e3e3e3;
+    transition: all 0.3s ease-in-out;
+}
+
+.social-btn:hover .social-icon {
+    transform: rotate(360deg);
 }
 
 @media (min-width: 800px) {
