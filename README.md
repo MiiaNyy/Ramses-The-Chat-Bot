@@ -17,6 +17,14 @@ and quicker to learn C# than create the bot using Composer.
 
 Bot is connected to QnA Maker Knowledge Base and Azures Language Understanding (LUIS).
 
+The bot is built around different dialogues and triggers. Dialogues are coded conversations between a bot and users. In
+the dialog, the bot can ask the user something or just provide information. Triggers are created using Azure's Language
+Understanding (LUIS) service. They are created by teaching LUIS different words and phrases and giving the trigger a
+conditional statement. When LUIS recognizes a word / phrase, it gives it a confidence score from 0-100%. The 
+more confident it is about user intent, the higher the score. The conditional statement is there to tell LUIS that, 
+if your confidence score is higher than this (example 60%) fire this particular dialog.
+
+
 ### What it can do
 
 The main functionality is that the bot can connect the user to the inventory database in MongoDB. Through bot, user can
@@ -31,7 +39,8 @@ Bot can also tell information about the company and do little chitchat.
 
 - _Inventory management_
 - _Add new item to inventory_
-- _Delete item from inventory_
+- _Delete_ 
+  -  to remove item from inventory
 - _Get item from inventory_
 
 **Ask about the company:**
