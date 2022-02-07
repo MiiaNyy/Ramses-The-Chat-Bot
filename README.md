@@ -1,4 +1,4 @@
-# <img src="assets/apple-touch-icon.png" width="40" height="40"/> RSA - homepage and chat bot
+# <img src="src/assets/apple-touch-icon.png" width="40" height="40"/> RSA - homepage and chat bot
 This project is part two of my RSA inventory and Azure chat bot project. This pages idea is to be RSA - company's 
 homepage 
 where you can talk to the chat bot called Ramses the Inventory Assistant.
