@@ -24,7 +24,8 @@ conditional statement. When LUIS recognizes a word / phrase, it gives it a confi
 more confident it is about user intent, the higher the score. The conditional statement is there to tell LUIS that, 
 if your confidence score is higher than this (example 60%) fire this particular dialog.
 
-<img src="src/assets/trigger-phrases-for-readme.png" height="300"/>
+
+![Image about trigger phrases](src/assets/trigger-phrases-for-readme.png)
 
 ### What it can do
 
